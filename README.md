@@ -108,3 +108,157 @@ Happy Coding! 💻✨
         <form action="#" method="POST">
             <!-- Name -->
             <label for="name">Full Name:</label><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            assignment 4
+            
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia-Rich Webpage</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Multimedia Webpage 🎉</h1>
+        <p>This page showcases HTML5 multimedia elements, a form, a table, an image, and a list.</p>
+    </header>
+
+    <!-- Embedded Image -->
+    <section>
+        <h2>Featured Image</h2>
+        <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" 
+             alt="Beautiful Scenery" 
+             width="600">
+    </section>
+
+    <!-- Multimedia: Audio -->
+    <section>
+        <h2>Background Music</h2>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Multimedia: Video -->
+    <section>
+        <h2>Intro Video</h2>
+        <video width="600" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- List -->
+    <section>
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>Mobile App Development</li>
+            <li>Digital Marketing</li>
+            <li>Cloud Solutions</li>
+        </ul>
+    </section>
+
+    <!-- Table -->
+    <section>
+        <h2>Team Contacts</h2>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alex Kim</td>
+                    <td>Developer</td>
+                    <td>alex@example.com</td>
+                    <td>0712345678</td>
+                </tr>
+                <tr>
+                    <td>Mary Wambui</td>
+                    <td>Designer</td>
+                    <td>mary@example.com</td>
+                    <td>0723456789</td>
+                </tr>
+                <tr>
+                    <td>James Otieno</td>
+                    <td>Manager</td>
+                    <td>james@example.com</td>
+                    <td>0734567890</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Register Now</h2>
+        <form action="#" method="POST">
+            <!-- Full Name -->
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" placeholder="Your full name" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="At least 6 characters" required minlength="6"><br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Gender -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Interests -->
+            <label>Interests:</label><br>
+            <input type="checkbox" id="tech" name="interests" value="Technology">
+            <label for="tech">Technology</label>
+            <input type="checkbox" id="art" name="interests" value="Art">
+            <label for="art">Art</label>
+            <input type="checkbox" id="sports" name="interests" value="Sports">
+            <label for="sports">Sports</label><br><br>
+
+            <!-- Country -->
+            <label for="country">Country:</label><br>
+            <select id="country" name="country" required>
+                <option value="">--Select Country--</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+            </select><br><br>
+
+            <!-- Submit -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
+
